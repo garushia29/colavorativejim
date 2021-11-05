@@ -4,8 +4,8 @@ const salt = bcrypt.genSaltSync();
 
 const UsuarioSeeder = [
     {
-        nombre: "Mauricio",
-        apellido: "Baldivieso Santos",
+        nombre: "jimmy ",
+        apellido: "garcia",
         usuario: "admin",
         email: "admin@gmail.com",
         password: bcrypt.hashSync( "123456", salt ),
